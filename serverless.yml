@@ -1,0 +1,10 @@
+service: synhrms
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  stage: dev
+
+functions:
+  findInterviewCandidates:
+    handler: handler.findInterviewCandidates
